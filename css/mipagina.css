@@ -5,28 +5,29 @@
     grid-template-areas: 
     'header header'
     'nav main'
-    'nav footer';
+    'footer footer';
     grid-template-rows: 10% auto 10%;
     grid-template-columns: 10% 90%;
 }
 
 .item1{
     grid-area: header;
-    background-color: blue;
+    background-color: rgb(61, 101, 211);
 }
 
 .item2{
     grid-area: nav;
-    background-color: green;
+    background-color: cornflowerblue;
 }
 
 .item3{
     grid-area: main;
+    background-color: white;
 }
 
 .item4{
     grid-area: footer;
-    background-color: black;
+    background-color: black ;
 }
 
 .divheadercontainer{
@@ -36,6 +37,10 @@
 
 .colortitle{
     color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 0;
+    font-family: sans-serif ;
 }
 
 .navcontainer{
@@ -88,3 +93,26 @@
     background-color: blue;
     color:white;
 }
+
+.navegador ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 40 40 0 0;
+ }
+ .navegador li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+ .navegador li a {
+    padding: 2px 7px 2px 7px;
+    color: #669;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    text-decoration: none;
+ }
+ .navegador li a:hover{
+    background-color: #333333;
+    color: #ffffff;
+    transition: 0.5s;
+ }
