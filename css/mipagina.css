@@ -1,0 +1,90 @@
+
+.grid-container{
+    display: grid;
+    height: 100%;
+    grid-template-areas: 
+    'header header'
+    'nav main'
+    'nav footer';
+    grid-template-rows: 10% auto 10%;
+    grid-template-columns: 10% 90%;
+}
+
+.item1{
+    grid-area: header;
+    background-color: blue;
+}
+
+.item2{
+    grid-area: nav;
+    background-color: green;
+}
+
+.item3{
+    grid-area: main;
+}
+
+.item4{
+    grid-area: footer;
+    background-color: black;
+}
+
+.divheadercontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.colortitle{
+    color: white;
+}
+
+.navcontainer{
+    display:flex;
+    flex-direction: column;
+}
+
+.divmaintitleimages{
+    display:flex;
+    justify-content: center;
+}
+
+.divimagecontainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.divvideocontainer{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.divfootcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 10X;
+    justify-content: center;
+    align-items: center;
+}
+
+.footertext{
+    color: white;
+}
+
+.containercontrol{
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+    gap:10px;
+}
+
+.buttonform{
+    text-align: center;
+}
+
+.button{
+    background-color: blue;
+    color:white;
+}

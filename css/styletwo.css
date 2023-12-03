@@ -1,0 +1,30 @@
+
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.cuadrado{
+    color: white;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.cuadradoflex{
+    color:white;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hijosdeuno{
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+}
